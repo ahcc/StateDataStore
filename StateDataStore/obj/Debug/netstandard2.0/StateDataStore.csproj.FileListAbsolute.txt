@@ -1,0 +1,9 @@
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\bin\Debug\netstandard2.0\StateDataStore.deps.json
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\bin\Debug\netstandard2.0\StateDataStore.dll
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\bin\Debug\netstandard2.0\StateDataStore.pdb
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.csprojAssemblyReference.cache
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.csproj.CoreCompileInputs.cache
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.AssemblyInfoInputs.cache
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.AssemblyInfo.cs
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.dll
+C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Debug\netstandard2.0\StateDataStore.pdb

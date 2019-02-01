@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateDataStore", "StateDataStore\StateDataStore.csproj", "{DD30AC6D-B879-4A05-B24A-5A71BF5B03A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD30AC6D-B879-4A05-B24A-5A71BF5B03A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD30AC6D-B879-4A05-B24A-5A71BF5B03A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD30AC6D-B879-4A05-B24A-5A71BF5B03A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD30AC6D-B879-4A05-B24A-5A71BF5B03A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239C3E83-AE5B-4D24-ABC5-2CB4C7484528}
+	EndGlobalSection
+EndGlobal
