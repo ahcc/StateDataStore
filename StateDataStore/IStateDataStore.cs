@@ -12,7 +12,15 @@ namespace StateDataStore
         event EventHandler<StateDataStoreUpdateEventArgs> StateUpdateNotify;
 
         /// <summary>
-        /// Updates the state object whose key matches the provided key, to the value specified.
+        /// Connects this room to the StateDataStore database, provided that the correct roomUid and authToken are provided.
+        /// </summary>
+        /// <param name="roomUid">The Room UID in the database.</param>
+        /// <param name="authToken">The authorization token authenticating this room to the StateDataStore service.</param>
+        /// <returns>True if successful. False otherwise.</returns>
+        bool Initialize(string roomUid, string authToken);
+
+        /// <summary>
+        /// Updates the state object whose key matches the provided key, with the value specified.
         /// If a state object with the provided key does not exist, creates a state object entry within the Data Store.
         /// </summary>
         /// <param name="key"></param>
