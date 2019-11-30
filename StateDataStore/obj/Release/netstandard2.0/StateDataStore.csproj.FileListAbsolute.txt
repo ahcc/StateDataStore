@@ -10,3 +10,11 @@ C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Release\netsta
 C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\bin\Release\netstandard2.0\Newtonsoft.Json.Compact.dll
 C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\bin\Release\netstandard2.0\Newtonsoft.Json.Compact.xml
 C:\Innomate\Resources\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.csproj.CopyComplete
+D:\Innomate\Libraries\StateDataStore\StateDataStore\bin\Release\netstandard2.0\StateDataStore.deps.json
+D:\Innomate\Libraries\StateDataStore\StateDataStore\bin\Release\netstandard2.0\StateDataStore.dll
+D:\Innomate\Libraries\StateDataStore\StateDataStore\bin\Release\netstandard2.0\StateDataStore.pdb
+D:\Innomate\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.csprojAssemblyReference.cache
+D:\Innomate\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.AssemblyInfoInputs.cache
+D:\Innomate\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.AssemblyInfo.cs
+D:\Innomate\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.dll
+D:\Innomate\Libraries\StateDataStore\StateDataStore\obj\Release\netstandard2.0\StateDataStore.pdb

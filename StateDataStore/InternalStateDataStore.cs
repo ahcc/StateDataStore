@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace StateDataStore
 {
@@ -50,12 +51,12 @@ namespace StateDataStore
         /// <summary>
         /// Gets all states within the State Data Store whose key contains the substring 'filter'.
         /// </summary>
-        /// <param name="filter">
-        /// The filter substring. Only states whose key contains the filter substring is returned. 
+        /// <param name="regex">
+        /// The regex substring. Only states whose key matches the regex is returned. 
         /// If blank, all states are returned.
         /// </param>
         /// <returns></returns>
-        public string GetStates(string filter)
+        public string GetStates(string regex)
         {
             // Acquire keys and sort them.
             var keys = _states.Keys.ToList();
@@ -65,16 +66,20 @@ namespace StateDataStore
             var writer = new JsonTextWriter(sw);
             writer.WriteStartObject();
             writer.WritePropertyName("states");
-            writer.WriteStartObject();
+            writer.WriteStartArray();
             foreach (var key in keys)
             {
-                if (String.IsNullOrEmpty(filter) || key.ToLower().Contains(filter.ToLower())) // ToLower makes the comparison case insensitive
+                if (String.IsNullOrEmpty(regex) || Regex.Match(key.ToLower(), regex.ToLower()).Success) // ToLower makes the comparison case insensitive
                 {
-                    writer.WritePropertyName(key);
+                    writer.WriteStartObject();
+                    writer.WritePropertyName("guid");
+                    writer.WriteValue(key);
+                    writer.WritePropertyName("value");
                     writer.WriteValue(_states[key]);
+                    writer.WriteEndObject();
                 }
             }
-            writer.WriteEndObject();
+            writer.WriteEndArray();
             writer.WriteEndObject();
             return sw.ToString();
         }
